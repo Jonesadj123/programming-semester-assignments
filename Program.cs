@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CollectionLab
+namespace CheckDigitVerification
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace CollectionLab
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCollections());
+            Application.Run(new frmCheckDigit());
         }
     }
 }
